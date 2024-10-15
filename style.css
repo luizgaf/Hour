@@ -1,8 +1,7 @@
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #cfcfcf;
+    background-color: #FFFFFF;
     text-align: center;
 }
 h1{
@@ -12,8 +11,8 @@ h2{
     font-size: 300%;
 }
 header {
-    background-color: #919191;
-    color: white;
+    background-color: #676767;
+    color: #FFFFFF;
     text-align: center;
     padding: 20px 0;
 }
@@ -24,8 +23,8 @@ header {
 
 /* Estilos dos botões */
 button {
-    background-color: #303030;
-    color: white;
+    background-color: #333333;
+    color: #FFFFFF;
     border: none;
     padding: 15px 30px;
     margin: 10px;
@@ -39,12 +38,26 @@ button:hover {
 }
 
 #submit{
-    background-color: #585858;
+    background-color: #333333;
     padding: 8px 10px;
 }
-
+#submit:hover{
+    background-color: black;
+}
 label{
    font-size: 20px; 
    font-weight: 500;
-   font-family: Arial, Helvetica, sans-serif;
+   font-family: 'Roboto', sans-serif;;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('src/fonts/roboto/Roboto-Regular.ttf') format('truetype');
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+p{
+    font-weight:500;
 }
